@@ -80,7 +80,7 @@ game:GetService("Players").LocalPlayer.Character.RemoteEvent:FireServer(unpack(a
 end)
 
 
-Section:NewKeybind("TUSK FARM (worth+Rib)", "ee", Enum.KeyCode.Equals, function()
+Section:NewKeybind("TUSK FARM (worth+Rib)", "yee", Enum.KeyCode.Minus, function()
 local args = {
     [1] = "LearnSkill",
     [2] = {
